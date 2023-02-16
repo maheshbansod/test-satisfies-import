@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "downlevelIteration": true,
+    "allowJs": false,
+    "target": "es5",
+    "module": "amd",
+    "moduleResolution": "node",
+    "importsNotUsedAsValues": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": false,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "importHelpers": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "useUnknownInCatchVariables": true,
+    "lib": [
+      "es6",
+      "dom",
+      "dom.iterable",
+      "es2016.array.include",
+      "ES2018.Promise",
+      "ES2017.Object"
+    ]
+  }
+}
